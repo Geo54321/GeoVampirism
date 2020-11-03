@@ -1,0 +1,29 @@
+name: GeoVampirism
+version: 1.0.5
+author: Geo "Derp" 54321
+main: me.Geo54321.GeoVampirism.Main
+api-version: 1.16
+description: Geo's Vampirism Plugin
+prefix: BlameGeo!
+commands:
+  vampirism:
+    description: Toggles vampirism
+    aliases:
+      vamp
+    permission: GeoVampirism.core.toggleVampirism
+    permission-message: I am sorry but you do not have permission to do that.
+    usage: "Usage: /vampirism"
+permissions:
+  GeoVampirism.core.toggleVampirism:
+    description: Allows toggling of the vampirism effect
+    default: not op
+  GeoVampirism.core.*:
+    description: Wildcard permissions for core
+    default: op
+    children:
+      GeoVampirism.core.toggleVampirism: true
+  GeoVampirism.*:
+    description: Wildcard permissions for everything
+    default: op
+    children:
+      GeoVampirism.core.*: true
