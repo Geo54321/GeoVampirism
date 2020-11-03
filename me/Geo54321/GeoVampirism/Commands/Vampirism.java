@@ -47,7 +47,7 @@ public class Vampirism implements CommandExecutor {
     }
 
     private void toggleVampirism(Player player) {
-        String name = player.getDisplayName();
+        String name = player.getUniqueId().toString();
         if(listVampires().contains(name)) {
             namesList.removeLine(name);
             namesList.saveFile();
