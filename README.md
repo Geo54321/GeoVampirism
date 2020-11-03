@@ -32,3 +32,5 @@ A Minecraft plugin that gives benefits and downsides of being a vampire
 | stop-burn-time | Game tick time to stop burning and start buffing vampires at. |
 | vampirism | Toggles vampirism feature as a whole. |
 | antibed | Toggles the special vampire bed feature. |
+
+To view/edit the list of all players by UUID that are currently vampires look in the ./plugins/GeoVampirism/VampireList.yml file.
