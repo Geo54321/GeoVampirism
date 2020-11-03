@@ -19,7 +19,7 @@ A Minecraft plugin that gives benefits and downsides of being a vampire
 |----|----|
 | Weakness | When the vampire is in indirect sunlight, sunlight level 10 or greater, they are debuffed with Weakness 1 potion effect. |
 | Blindness | When the vampire is in indirect sunlight, sunlight level 10 or greater, they are debuffed with the Blindness effect. |
-| Burning | When the vampire is in direct sunlight, sunlight level 14 or greater, they are caught on fire for 10 seconds continuously until they seek shade. |
+| Burning | When the vampire is in direct sunlight, sunlight level 15 or greater, they are caught on fire for 10 seconds continuously until they seek shade. |
 
 # Configuration and Administration
 
